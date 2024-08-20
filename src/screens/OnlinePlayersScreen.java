@@ -131,8 +131,7 @@ public class OnlinePlayersScreen extends AnchorPane {
     
      protected void handleOnBtnRefresh(javafx.event.ActionEvent actionEvent) {
         try {
-            //       tableView_col.setItems(users);
-
+            users.clear();
             handler.sendMessageToServer("updateList");
         } catch (IOException ex) {
             Logger.getLogger(OnlinePlayersScreen.class.getName()).log(Level.SEVERE, null, ex);
