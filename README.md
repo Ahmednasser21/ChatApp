@@ -1,2 +1,2 @@
 # ChatApp
-Simple chat app using java FX
+Simple chat app (client side) using java FX
